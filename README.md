@@ -1,0 +1,2 @@
+# nodeinit
+jsnode
