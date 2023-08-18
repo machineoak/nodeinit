@@ -1,2 +1,0 @@
-# nodeinit
-jsnode
