@@ -6,13 +6,28 @@ function cleaningError(error){
     throw new Error(chalk.red(error.code, 'não há arquivo no diretório..'));
 }
 
-function searchArchive(pathing){
-    const encoding = 'utf-8';
-    fs.promises
-    .readFile(pathing, encoding)
-    .then((text) => console.log(chalk.green(text)))
-    .catch(cleaningError)
+//async/await
+
+async function searchArchive(pathing){
+    try {
+        const encoding = 'utf-8';
+    const text = await fs.promises.readFile(pathing,
+    encoding)
+    console.log(chalk.green(text))
+    } catch (error){
+        cleaningError(error);
+    }
 }
+
+//then promises
+
+//function searchArchive(pathing){
+//    const encoding = 'utf-8';
+//    fs.promises
+//    .readFile(pathing, encoding)
+//    .then((text) => console.log(chalk.green(text)))
+//    .catch(cleaningError)
+//}
 
 //function searchArchive(pathing){
 //    const encoding = 'utf-8';
