@@ -11,6 +11,6 @@
   "author": "oak",
   "license": "ISC",
   "dependencies": {
-    "chalk": "5.0.1"
+    "chalk": "^5.0.1"
   }
 }
