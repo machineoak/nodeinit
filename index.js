@@ -19,24 +19,7 @@ async function searchArchive(pathing){
     }
 }
 
-//then promises
-
-//function searchArchive(pathing){
-//    const encoding = 'utf-8';
-//    fs.promises
-//    .readFile(pathing, encoding)
-//    .then((text) => console.log(chalk.green(text)))
-//    .catch(cleaningError)
-//}
-
-//function searchArchive(pathing){
-//    const encoding = 'utf-8';
-//    fs.readFile(pathing, encoding, (error, text) =>{
-//        if(error){
-//            cleaningError(error);
-//        }
-//        console.log(chalk.blue(text));
-//    })
-//}
-
 searchArchive('./archive/README.md');
+
+// \[[^[\]]*?\]
+// \(https?:\/\/[^\s?#.].[^\s]*\)
