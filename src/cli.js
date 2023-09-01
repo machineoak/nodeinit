@@ -12,7 +12,9 @@ function imprimeLista(result, identificador = ''){
 }
 
 async function processaTexto(arg){
-    const caminho = arg[2]
+    const caminho = arg[2];
+    const valida = arg[3];
+    console.log(valida)
 
     try{
         fs.lstatSync(caminho);

@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "cli": "node ./src/cli.js"
+    "cli": "node ./src/cli.js ./archive/README.md",
+    "cli:valida": "node ./src/cli.js ./archive/README.md --valida"
   },
   "keywords": [],
   "author": "oak",
