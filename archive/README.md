@@ -1,11 +1,4 @@
-A interface File provê informações sobre arquivos e permite ao JavaScript  a acessar seu conteúdo.
+### node lib to httpstatus with chalk
 
-[PIMTAO PIMTAO PIMTAO]
-
-[<input>]
-[pimto](https://mail.google.com/mail/u/0/#inbox)
-[narutos](https://github.com/tuxoak?tab=repositories)
-
-[Teste de retorno 400](https://httpstat.us/404).
-
-[ai bolsonaro](https://bolsonarogames.com)
+put your url at paratheses below and execute 'npm run cli:valida' to run the validation.
+[http test](https://google.com).

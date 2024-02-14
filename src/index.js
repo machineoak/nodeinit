@@ -13,8 +13,6 @@ function cleaningError(error){
     throw new Error(chalk.red(error.code, 'não há arquivo no diretório..'));
 }
 
-//async/await
-
 async function searchArchive(pathing){
     try {
         const encoding = 'utf-8';
